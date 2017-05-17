@@ -1,0 +1,54 @@
+/* Settings */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+/* Tools */
+
+/* Generic */
+@import 'reset.css';
+
+/* Elements */
+$bg-color-1: #ff6c61;
+body {
+  background-color: $bg-color-1;
+  font-weight: 400;
+}
+
+/* Objects */
+
+/* Components */
+#site-title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.bg-title {
+  max-width: 600px;
+  margin: auto;
+  h1 {
+    color: color(white alpha(90%));
+    font-size: 2.8em;
+    font-weight: 400;
+    /* text-shadow: rgba(0, 0, 0, 0.18) 0px 0px 0px, rgba(0, 0, 0, 0.33) 0px 0px 0px; */
+    a {
+      color: color(white alpha(90%));
+      text-decoration: none;
+    }
+  }
+  h2 {
+    color: color(white alpha(90%));
+    font-size: 1.3em;
+    font-weight: 400;
+    /* text-shadow: rgba(0, 0, 0, 0.18) 0px 0px 0px, rgba(0, 0, 0, 0.33) 0px 0px 0px; */
+  }
+}
+
+footer.footer {
+  color: color(white alpha(90%));
+  a {
+    color: color(white alpha(90%));
+  }
+}
+
+/* Trumps */

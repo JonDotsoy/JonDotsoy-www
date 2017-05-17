@@ -5,23 +5,25 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "gulp": "ogulp -r babel-register"
+    "services": "docker-compose",
+    "gulp": "ogulp -r babel-register",
+    "build": "ogulp -r babel-register build",
+    "watch": "ogulp -r babel-register watch"
   },
   "dependencies": {
     "babel-core": "7",
-    "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
     "caniuse-db": "*",
     "cssnano": "^3.10.0",
     "gulp-postcss": "^7.0.0",
+    "gulp-pug": "^3.3.0",
     "ogulp": "^0.1.3",
     "postcss-cssnext": "^2.11.0",
     "postcss-import": "^10.0.0",
     "precss": "^1.4.0",
-    "webpack": "2",
-    "webpack-stream": "^3.2.0"
+    "reset.css": "^2.0.2"
   },
   "babel": {
     "presets": [

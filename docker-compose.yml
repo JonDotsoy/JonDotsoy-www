@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  www:
+    build: .
+    image: "jondotsoy-www:$npm_package_version"
+    ports:
+      - "80"
