@@ -1,5 +1,14 @@
 import gulp from 'gulp'
 
+const bs = require('browser-sync').create()
+
+gulp.task('browser-sync', (done) => {
+
+  bs.init({
+    server: './www'
+  })
+})
+
 gulp.task('styles:watch', ['styles'], () => {
   gulp.watch(['src/styles/**/*.css'], ['styles'])
 })
@@ -11,7 +20,9 @@ gulp.task('styles', () => (
     require('precss')(),
     require('postcss-cssnext')(),
   ]))
-  .pipe(gulp.dest('dest/styles'))
+  .on('error', handleStylesError)
+  .pipe(gulp.dest('www/styles'))
+  .pipe(bs.stream())
 ))
 
 gulp.task('templates:watch', ['templates'], () => {
@@ -21,18 +32,21 @@ gulp.task('templates:watch', ['templates'], () => {
 gulp.task('templates', () => (
   gulp.src(['src/templates/*.pug'])
   .pipe(require('gulp-pug')())
-  .pipe(gulp.dest('dest'))
+  .pipe(gulp.dest('www'))
+  .pipe(bs.stream())
 ))
 
 gulp.task('copy-favicons', () => (
   gulp.src(['src/favicons/**/*'])
-  .pipe(gulp.dest('dest'))
+  .pipe(gulp.dest('www'))
+  .pipe(bs.stream())
 ))
 
 gulp.task('watch', [
   'copy-favicons',
   'styles:watch',
   'templates:watch',
+  'browser-sync',
 ])
 
 gulp.task('build', [
@@ -40,3 +54,8 @@ gulp.task('build', [
   'styles',
   'templates',
 ])
+
+function handleStylesError (err) {
+  console.log(err.stack.toString())
+  this.emit('end')
+}
