@@ -2,8 +2,11 @@
 
 ## [Unreleased]
 ### Added
-- Supoort to schema.org ([8f96896][])
 - [ ] Translate to ES lang.
+
+## 1.0.4 — 2017-06-11
+### Added
+- Supoort to schema.org ([8f96896][])
 - CHANGELOG.md file ([013ca3c][])
 
 ### Changed
