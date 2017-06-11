@@ -1,9 +1,12 @@
 {
   "name": "jondotsoy-www",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "scripts": {
     "services": "docker-compose",
     "gulp": "ogulp -r babel-register",
@@ -11,7 +14,7 @@
     "watch": "ogulp -r babel-register watch"
   },
   "dependencies": {
-    "babel-core": "7",
+    "babel-core": "6",
     "babel-preset-env": "^1.4.0",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "browser-sync": "^2.18.12"
+    "browser-sync": "^2.18.12",
+    "gulp-ejs": "^3.0.1"
   }
 }

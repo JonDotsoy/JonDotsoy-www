@@ -3,7 +3,6 @@ import gulp from 'gulp'
 const bs = require('browser-sync').create()
 
 gulp.task('browser-sync', (done) => {
-
   bs.init({
     server: './www'
   })
@@ -42,8 +41,20 @@ gulp.task('copy-favicons', () => (
   .pipe(bs.stream())
 ))
 
+gulp.task('manifest', () => (
+  gulp.src(['src/manifest/**/*'])
+  .pipe(require('gulp-ejs')(process.env))
+  .pipe(gulp.dest('www'))
+  .pipe(bs.stream())
+))
+
+gulp.task('manifest:watch', ['manifest'], () => (
+  gulp.watch(['src/manifest/**/*'], ['manifest'])
+))
+
 gulp.task('watch', [
   'copy-favicons',
+  'manifest:watch',
   'styles:watch',
   'templates:watch',
   'browser-sync',
@@ -52,6 +63,7 @@ gulp.task('watch', [
 gulp.task('build', [
   'copy-favicons',
   'styles',
+  'manifest',
   'templates',
 ])
 
