@@ -2,6 +2,7 @@
 
 html(manifest='app.appcache')
   head
+
     meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
 
     title Jonathan Delgado Web Engineer
@@ -13,7 +14,9 @@ html(manifest='app.appcache')
     link(rel="manifest" href="/manifest.json")
     meta(name="apple-mobile-web-app-title" content="jon.soy")
     meta(name="application-name" content="jon.soy")
-    meta(name="theme-color" content="#EF4A4A")
+    meta(name="theme-color" content="#56CCF2")
+
+    script(type="application/ld+json")!= JSON.stringify(schema)
 
   body
 

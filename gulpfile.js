@@ -1,4 +1,5 @@
 import gulp from 'gulp'
+import fs from 'fs'
 
 const bs = require('browser-sync').create()
 
@@ -25,12 +26,16 @@ gulp.task('styles', () => (
 ))
 
 gulp.task('templates:watch', ['templates'], () => {
-  gulp.watch(['src/templates/**/*.pug'], ['templates'])
+  gulp.watch(['src/templates/**/*.pug', 'src/schema.json'], ['templates'])
 })
 
 gulp.task('templates', () => (
   gulp.src(['src/templates/*.pug'])
-  .pipe(require('gulp-pug')())
+  .pipe(require('gulp-pug')({
+    locals: {
+      schema: JSON.parse(fs.readFileSync('src/schema.json'))
+    }
+  }))
   .pipe(gulp.dest('www'))
   .pipe(bs.stream())
 ))
@@ -39,6 +44,11 @@ gulp.task('copy-favicons', () => (
   gulp.src(['src/favicons/**/*'])
   .pipe(gulp.dest('www'))
   .pipe(bs.stream())
+))
+
+gulp.task('copy-brand', () => (
+  gulp.src(['src/brand/logo.png'])
+  .pipe(gulp.dest('www/imgs'))
 ))
 
 gulp.task('manifest', () => (

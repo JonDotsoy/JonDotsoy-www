@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One');
 @import 'reset.css';
 
 /* Settings */
 /* Color configure https://coolors.co/f37b7b-ef4a4a-cdedf6-ef7b45-d84727 */
-$color-bg: #F37B7B;
-$shadown-color: #EF4A4A;
+$color-bg: #fff;
+$color-text: color(#000 alpha(70%));
+$color-title: #56CCF2;
+$color-linktext: #56CCF2;
+$shadown-color: #000;
 
 /* Tools */
 
@@ -12,7 +15,7 @@ $shadown-color: #EF4A4A;
 
 /* Elements */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: $color-bg;
   font-weight: 400;
   font-size: 20px;
@@ -22,7 +25,7 @@ body {
 
 /* Components */
 #site-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   /* margin-top: 5em; */
   /* margin-bottom: 5em; */
@@ -35,23 +38,24 @@ body {
   margin: auto;
 
   h1 {
-    color: color(white alpha(90%));
-    font-size: 2.8em;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: $color-title;
+    font-size: 2em;
     font-weight: 400;
     padding-bottom: .35em;
 
     text-shadow:
-      0px 1px 1px color($shadown-color alpha(100%)),
-      0px 2px 2px color($shadown-color alpha(100%));
+      0px 1px 1px color($color-title alpha(20%)),
+      0px 2px 2px color($color-title alpha(20%));
 
     a {
-      color: color(white alpha(90%));
+      color: $color-linktext;
       text-decoration: none;
     }
   }
 
   h2 {
-    color: color(white alpha(90%));
+    color: $color-text;
     font-size: 1.3em;
     font-weight: 400;
   }
@@ -59,9 +63,9 @@ body {
 }
 
 footer.footer {
-  color: color(white alpha(90%));
+  color: $color-text;
   a {
-    color: color(white alpha(90%));
+    color: $color-linktext;
   }
 }
 

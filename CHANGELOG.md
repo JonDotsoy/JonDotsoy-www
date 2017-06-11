@@ -7,6 +7,8 @@
 - CHANGELOG.md file ([013ca3c][])
 
 ### Changed
+- Update brand.
+- Update Style to blue (#56CCF2).
 - Change of Yarn to NPM@5 ([013ca3c][])
 - Fix dependencies ([013ca3c][])
 
