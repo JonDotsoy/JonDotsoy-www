@@ -4,8 +4,10 @@
 ### Added
 - [ ] Supoort to schema.org.
 - [ ] Translate to ES lang.
-- [ ] CHANGELOG.md file.
+- CHANGELOG.md file ([013ca3c][])
 
 ### Changed
-- [ ] Change of Yarn to NPM@5
-- [ ] FIX dependencies.
+- Change of Yarn to NPM@5 ([013ca3c][])
+- Fix dependencies ([013ca3c][])
+
+[013ca3c]: https://github.com/JonDotsoy/jondosoy-www/commit/013ca3c
