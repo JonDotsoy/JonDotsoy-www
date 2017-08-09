@@ -3,7 +3,7 @@
 ## [Unreleased]
 ### 🚀 Added
 - [ ] Translate to ES lang.
-- [ ] `rel="noopener"` to links.
+- ([5de5bf2][]) Added the `rel="noopener"` attribute on links.
 
 ## 1.0.6 — 2017-00007
 ### 🚀 Added
@@ -29,3 +29,4 @@
 [013ca3c]: https://github.com/JonDotsoy/jondosoy-www/commit/013ca3c
 [8f96896]: https://github.com/JonDotsoy/jondosoy-www/commit/8f96896
 [8103658]: https://github.com/JonDotsoy/jondosoy-www/commit/8103658
+[5de5bf2]: https://github.com/JonDotsoy/jondosoy-www/commit/5de5bf2
