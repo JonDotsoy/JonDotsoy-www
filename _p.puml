@@ -1,0 +1,40 @@
+Title: Nuevo Cambio
+
+|JonDotsoy-www|
+
+:Cambio<
+
+:Agregar cambio al changelog;
+Note: Unreleased
+
+:Commit Cambio;
+
+:Commit HASH/
+
+if (Hay mas cambios que agregar) then (No)
+
+    :package.json<
+    :Subir Version;
+    :version/
+    :Modificar changelog con version;
+    :Commit nueva version;
+    :tag nueva version;
+    Note: Con prefijo "v"
+    :docker-compose build;
+
+    :Git Subir commits;
+    :Git Subir tags;
+
+    |Server|
+
+    :Modifica docker-compose.yml;
+    :docker-compose up -d;
+
+    stop
+
+else (Si)
+    |JonDotsoy-www|
+    stop
+endif
+
+
