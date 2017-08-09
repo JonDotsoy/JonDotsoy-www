@@ -31,7 +31,7 @@ gulp.task('styles', () => (
 ))
 
 gulp.task('copy-images', () => (
-  gulp.src(['src/images/desktopwork.png'])
+  gulp.src(['src/images/desktopwork.png', 'src/images/desktopwork.webp'])
   .pipe(gulp.dest('www/img'))
 ))
 

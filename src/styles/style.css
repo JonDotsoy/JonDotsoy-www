@@ -17,6 +17,7 @@ $shadown-color: #000;
 /* Elements */
 body {
   background-image: url('/img/desktopwork.png');
+  background-image: url('/img/desktopwork.webp');
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
