@@ -5,6 +5,9 @@
 - [ ] Translate to ES lang.
 - ([5de5bf2][]) Added the `rel="noopener"` attribute on links.
 
+### 🔧 Fixed
+- ([ea402a3][]) Fix style no show scroll body, if it not necessary
+
 ## 1.0.6 — 2017-08-09
 ### 🚀 Added
 - ([8103658][]) Write README file
@@ -30,3 +33,4 @@
 [8f96896]: https://github.com/JonDotsoy/jondosoy-www/commit/8f96896
 [8103658]: https://github.com/JonDotsoy/jondosoy-www/commit/8103658
 [5de5bf2]: https://github.com/JonDotsoy/jondosoy-www/commit/5de5bf2
+[ea402a3]: https://github.com/JonDotsoy/jondosoy-www/commit/ea402a3
