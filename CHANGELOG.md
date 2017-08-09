@@ -1,10 +1,10 @@
 # Change Log
 
-## [Unreleased]
+## [Unreleased][]
 ### 🚀 Added
 - [ ] Translate to ES lang.
 
-## 1.0.7 — 2017-08-09
+## [1.0.7][] — 2017-08-09
 ### 🚀 Added
 - ([5de5bf2][]) Added the `rel="noopener"` attribute on links.
 
@@ -12,7 +12,7 @@
 - ([ea402a3][]) Fix style no show scroll body, if it not necessary
 
 
-## 1.0.6 — 2017-08-09
+## [1.0.6][] — 2017-08-09
 ### 🚀 Added
 - ([8103658][]) Write README file
 - ([8103658][]) Added to Guide How to install to README file
@@ -23,7 +23,7 @@
 - ([8103658][]) Update theme
 
 
-## 1.0.5 — 2017-06-11
+## [1.0.5][] — 2017-06-11
 ### 🚀 Added
 - ([8f96896][]) Supoort to schema.org
 - ([013ca3c][]) CHANGELOG.md file
@@ -39,3 +39,7 @@
 [8103658]: https://github.com/JonDotsoy/jondosoy-www/commit/8103658
 [5de5bf2]: https://github.com/JonDotsoy/jondosoy-www/commit/5de5bf2
 [ea402a3]: https://github.com/JonDotsoy/jondosoy-www/commit/ea402a3
+[1.0.5]: https://github.com/JonDotsoy/JonDotsoy-www/compare/57e2902...v1.0.5
+[1.0.6]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.5...v1.0.6
+[1.0.7]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.6...v1.0.7
+[Unreleased]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.7...HEAD
