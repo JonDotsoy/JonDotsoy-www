@@ -7,8 +7,9 @@
 ## 1.0.6 — 2017-08-09
 ### Added
 - ([8103658][]) Write README file
-- ([8103658][]) Added Guide How to install to README file
-- ([8103658][]) Added Guide How to publish to README file
+- ([8103658][]) Added to Guide How to install to README file
+- ([8103658][]) Added to Guide How to publish to README file
+- ([8103658][]) Added a process to css with cssnano
 
 ### Changed
 - ([8103658][]) Update theme
