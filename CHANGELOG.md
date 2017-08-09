@@ -6,12 +6,12 @@
 
 ## 1.0.6 — 2017-08-09
 ### Added
-- ([][]) Write README file
-- ([][]) Added Guide How to install to README file
-- ([][]) Added Guide How to publish to README file
+- ([8103658][]) Write README file
+- ([8103658][]) Added Guide How to install to README file
+- ([8103658][]) Added Guide How to publish to README file
 
 ### Changed
-- ([][]) Update theme
+- ([8103658][]) Update theme
 
 ## 1.0.5 — 2017-06-11
 ### Added
@@ -26,3 +26,4 @@
 
 [013ca3c]: https://github.com/JonDotsoy/jondosoy-www/commit/013ca3c
 [8f96896]: https://github.com/JonDotsoy/jondosoy-www/commit/8f96896
+[8103658]: https://github.com/JonDotsoy/jondosoy-www/commit/8103658
