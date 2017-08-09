@@ -1,25 +1,25 @@
 # Change Log
 
 ## [Unreleased]
-### Added
+### 🚀 Added
 - [ ] Translate to ES lang.
 
-## 1.0.6 — 2017-08-09
-### Added
+## 1.0.6 — 2017-00007
+### 🚀 Added
 - ([8103658][]) Write README file
 - ([8103658][]) Added to Guide How to install to README file
 - ([8103658][]) Added to Guide How to publish to README file
 - ([8103658][]) Added a process to css with cssnano
 
-### Changed
+### ✔️ Changed
 - ([8103658][]) Update theme
 
 ## 1.0.5 — 2017-06-11
-### Added
+### 🚀 Added
 - ([8f96896][]) Supoort to schema.org
 - ([013ca3c][]) CHANGELOG.md file
 
-### Changed
+### ✔️ Changed
 - ([8f96896][]) Update brand
 - ([8f96896][]) Update Style to blue (#56CCF2)
 - ([013ca3c][]) Change of Yarn to NPM@5
