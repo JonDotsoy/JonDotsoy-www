@@ -3,10 +3,14 @@
 ## [Unreleased]
 ### 🚀 Added
 - [ ] Translate to ES lang.
+
+## 1.0.7 — 2017-08-09
+### 🚀 Added
 - ([5de5bf2][]) Added the `rel="noopener"` attribute on links.
 
 ### 🔧 Fixed
 - ([ea402a3][]) Fix style no show scroll body, if it not necessary
+
 
 ## 1.0.6 — 2017-08-09
 ### 🚀 Added
@@ -17,6 +21,7 @@
 
 ### ✔️ Changed
 - ([8103658][]) Update theme
+
 
 ## 1.0.5 — 2017-06-11
 ### 🚀 Added
