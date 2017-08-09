@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### 🚀 Added
 - [ ] Translate to ES lang.
+- [ ] `rel="noopener"` to links.
 
 ## 1.0.6 — 2017-00007
 ### 🚀 Added
