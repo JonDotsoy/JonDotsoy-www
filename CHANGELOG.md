@@ -5,7 +5,7 @@
 - [ ] Translate to ES lang.
 - ([5de5bf2][]) Added the `rel="noopener"` attribute on links.
 
-## 1.0.6 — 2017-00007
+## 1.0.6 — 2017-08-09
 ### 🚀 Added
 - ([8103658][]) Write README file
 - ([8103658][]) Added to Guide How to install to README file
