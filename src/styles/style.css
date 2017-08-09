@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import 'reset.css';
 
 /* Settings */
@@ -15,57 +16,81 @@ $shadown-color: #000;
 
 /* Elements */
 body {
-  font-family: 'Rubik', sans-serif;
-  background-color: $color-bg;
-  font-weight: 400;
-  font-size: 20px;
+  background-image: url('/img/desktopwork.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
 }
 
 /* Objects */
 
-/* Components */
-#site-title {
-  font-family: 'Rubik', sans-serif;
-  text-align: center;
-  /* margin-top: 5em; */
-  /* margin-bottom: 5em; */
-  padding: 20px 10px;
-  box-sizing: border-box;
+#containerbody {
+  max-width: 330px;
+  margin: 80px auto;
+  padding: 15px;
+
+  .title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #56CCF2;
+
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #000000;
+
+    margin-bottom: 21px;
+  }
+
+  .more {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+
+    color: #000000;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
 }
 
-.bg-title {
-  max-width: 500px;
-  margin: auto;
+@media (width <= 360px) {
+  #containerbody {
+    margin: 50px auto;
 
-  h1 {
-    font-family: 'Rubik Mono One', sans-serif;
-    color: $color-title;
-    font-size: 2em;
-    font-weight: 400;
-    padding-bottom: .35em;
-
-    text-shadow:
-      0px 1px 1px color($color-title alpha(20%)),
-      0px 2px 2px color($color-title alpha(20%));
-
-    a {
-      color: $color-linktext;
-      text-decoration: none;
+    .title {
     }
-  }
 
-  h2 {
-    color: $color-text;
-    font-size: 1.3em;
-    font-weight: 400;
-  }
+    .subtitle {
+    }
 
-}
-
-footer.footer {
-  color: $color-text;
-  a {
-    color: $color-linktext;
+    .more {
+    }
   }
 }
 

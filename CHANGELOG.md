@@ -4,6 +4,15 @@
 ### Added
 - [ ] Translate to ES lang.
 
+## 1.0.6 — 2017-08-09
+### Added
+- ([][]) Write README file
+- ([][]) Added Guide How to install to README file
+- ([][]) Added Guide How to publish to README file
+
+### Changed
+- ([][]) Update theme
+
 ## 1.0.5 — 2017-06-11
 ### Added
 - ([8f96896][]) Supoort to schema.org

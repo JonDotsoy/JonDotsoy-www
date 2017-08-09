@@ -4,7 +4,8 @@
   "url": "https://jon.soy",
   "logo": "https://jon.soy/imgs/logo.png",
   "contactPoint": [
-    { "@type": "ContactPoint",
+    {
+      "@type": "ContactPoint",
       "telephone": "+56-9-6194-7460",
       "contactType": "customer service",
       "availableLanguage": "Spanish"

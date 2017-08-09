@@ -19,10 +19,20 @@ gulp.task('styles', () => (
     require('postcss-import')(),
     require('precss')(),
     require('postcss-cssnext')(),
+    require('cssnano')({
+      discardComments: {
+        removeAll: true
+      }
+    }),
   ]))
   .on('error', handleStylesError)
   .pipe(gulp.dest('www/styles'))
   .pipe(bs.stream())
+))
+
+gulp.task('copy-images', () => (
+  gulp.src(['src/images/desktopwork.png'])
+  .pipe(gulp.dest('www/img'))
 ))
 
 gulp.task('templates:watch', ['templates'], () => {
@@ -63,6 +73,7 @@ gulp.task('manifest:watch', ['manifest'], () => (
 ))
 
 gulp.task('watch', [
+  'copy-images',
   'copy-favicons',
   'manifest:watch',
   'styles:watch',
@@ -71,6 +82,7 @@ gulp.task('watch', [
 ])
 
 gulp.task('build', [
+  'copy-images',
   'copy-favicons',
   'styles',
   'manifest',

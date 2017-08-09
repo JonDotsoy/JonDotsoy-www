@@ -5,4 +5,4 @@ services:
     build: .
     image: "jondotsoy-www:$npm_package_version"
     ports:
-      - "80"
+      - "$PORT:80"
