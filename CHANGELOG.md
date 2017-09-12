@@ -6,7 +6,7 @@
 
 ## [1.0.9][] — 2017-09-11
 ### 🚀 Added
-- Added Chat widget with drift.com
+- [b754222][] Added Chat widget with drift.com
 
 
 ## [1.0.8][] — 2017-08-09
@@ -50,8 +50,10 @@
 [5de5bf2]: https://github.com/JonDotsoy/jondosoy-www/commit/5de5bf2
 [ea402a3]: https://github.com/JonDotsoy/jondosoy-www/commit/ea402a3
 [d676dcb]: https://github.com/JonDotsoy/jondosoy-www/commit/d676dcb
+[b754222]: https://github.com/JonDotsoy/jondosoy-www/commit/b754222
 [1.0.5]: https://github.com/JonDotsoy/JonDotsoy-www/compare/57e2902...v1.0.5
 [1.0.6]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.5...v1.0.6
 [1.0.7]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.6...v1.0.7
 [1.0.8]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.6...v1.0.8
-[Unreleased]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.8...HEAD
+[1.0.9]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.8...v1.0.9
+[Unreleased]: https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.9...HEAD
