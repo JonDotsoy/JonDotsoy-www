@@ -4,6 +4,10 @@
 ### 🚀 Added
 - [ ] Translate to ES lang.
 
+## [1.0.9][] — 2017-09-11
+### 🚀 Added
+- Added Chat widget with drift.com
+
 
 ## [1.0.8][] — 2017-08-09
 ### 🚀 Added
