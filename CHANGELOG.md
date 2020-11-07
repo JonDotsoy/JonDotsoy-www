@@ -1,8 +1,11 @@
 # Change Log
 
 ## [Unreleased][]
-### 🚀 Refactor
+### 🛸 Refactor
 - [18d190d][] Migration to nextjs.
+
+### 🚀 Added
+- [ ] Prepare script to build image
 
 ## [1.0.9][] — 2017-09-11
 ### 🚀 Added
