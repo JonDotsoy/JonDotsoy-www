@@ -1,8 +1,8 @@
 # Change Log
 
 ## [Unreleased][]
-### 🚀 Added
-- [ ] Migration to nextjs.
+### 🚀 Refactor
+- [18d190d][] Migration to nextjs.
 
 ## [1.0.9][] — 2017-09-11
 ### 🚀 Added
@@ -44,6 +44,7 @@
 - ([013ca3c][]) Change of Yarn to NPM@5
 - ([013ca3c][]) Fix dependencies
 
+[18d190d]: https://github.com/JonDotsoy/jondosoy-www/commit/18d190d
 [013ca3c]: https://github.com/JonDotsoy/jondosoy-www/commit/013ca3c
 [8f96896]: https://github.com/JonDotsoy/jondosoy-www/commit/8f96896
 [8103658]: https://github.com/JonDotsoy/jondosoy-www/commit/8103658
