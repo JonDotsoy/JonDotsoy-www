@@ -1,37 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import 'reset.css';
+/* @import url('https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
+
+/* @import 'reset.css'; */
+
 
 /* Settings */
+
+
 /* Color configure https://coolors.co/f37b7b-ef4a4a-cdedf6-ef7b45-d84727 */
-$color-bg: #fff;
+
+
+/* $color-bg: #fff;
 $color-text: color(#000 alpha(70%));
 $color-title: #56CCF2;
 $color-linktext: #56CCF2;
-$shadown-color: #000;
+$shadown-color: #000; */
+
 
 /* Tools */
 
+
 /* Generic */
 
+
 /* Elements */
+
 body {
-  background-image: url('/img/desktopwork.png');
-  background-image: url('/img/desktopwork.webp');
-  background-size: cover;
-  background-position: center center;
-  min-height: 100vh;
-  contain: content;
+    background-image: url('/img/desktopwork.png');
+    background-image: url('/img/desktopwork.webp');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    contain: content;
 }
+
 
 /* Objects */
 
 #containerbody {
-  max-width: 330px;
-  margin: 80px auto;
-  padding: 15px;
+    max-width: 330px;
+    margin: 80px auto;
+    padding: 15px;
+}
 
-  .title {
+#containerbody .title {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -39,61 +52,49 @@ body {
     font-size: 30px;
     text-decoration-line: underline;
     text-transform: uppercase;
-
     color: #56CCF2;
-
     margin-bottom: 20px;
-  }
+}
 
-  .subtitle {
+#containerbody .subtitle {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 25px;
-
     color: #000000;
-
     margin-bottom: 21px;
-  }
+}
 
-  .more {
+#containerbody .more {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 20px;
-
     color: #000000;
-  }
+}
 
-  a,
-  a:link,
-  a:visited {
+#containerbody a,
+#containerbody a:link,
+#containerbody a:visited {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 20px;
     text-decoration-line: underline;
-
     color: #000000;
-  }
 }
 
-@media (width <= 360px) {
-  #containerbody {
-    margin: 50px auto;
-
-    .title {
+@media (max-width: 360px) {
+    #containerbody {
+        margin: 50px auto;
     }
-
-    .subtitle {
-    }
-
-    .more {
-    }
-  }
+    /* #containerbody .title {}
+    #containerbody .subtitle {}
+    #containerbody .more {} */
 }
+
 
 /* Trumps */

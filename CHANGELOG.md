@@ -2,7 +2,7 @@
 
 ## [Unreleased][]
 ### 🚀 Added
-- [ ] Translate to ES lang.
+- [ ] Migration to nextjs.
 
 ## [1.0.9][] — 2017-09-11
 ### 🚀 Added
