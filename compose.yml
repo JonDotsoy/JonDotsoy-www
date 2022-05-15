@@ -1,7 +1,6 @@
 services:
   www:
     build: .
-    image: "cloud.canister.io:5000/jobdotsoy/jondotsoy-www:$npm_package_version"
     ports:
       - "0.0.0.0:3000:3000"
     environment:

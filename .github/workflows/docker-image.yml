@@ -1,0 +1,25 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag jondotsoy-www:latest
+    - name: Docker Authorization Canister
+      run: docker login cloud.canister.io:5000 -u "${{ secrets.CANISTER_USERNAME }}" -p "${{ secrets.CANISTER_PASSWORD }}"
+    - name: Tag image with GITHUB_SHA
+      run: docker tag jondotsoy-www:latest cloud.canister.io:5000/${{ secrets.CANISTER_USERNAME }}/jondotsoy-www:$GITHUB_SHA
+    - name: Tag image with Latest
+      run: docker tag jondotsoy-www:latest cloud.canister.io:5000/${{ secrets.CANISTER_USERNAME }}/jondotsoy-www:latest
+    - name: Tag image with GITHUB_HEAD_REF
+      run: docker tag jondotsoy-www:latest cloud.canister.io:5000/${{ secrets.CANISTER_USERNAME }}/jondotsoy-www:$GITHUB_REF_NAME
+    - run: docker images
+    - run: docker push --all-tags cloud.canister.io:5000/${{ secrets.CANISTER_USERNAME }}/jondotsoy-www
