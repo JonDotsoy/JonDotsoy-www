@@ -1,6 +1,8 @@
 services:
   www:
     build: .
-    image: "jondotsoy-www:$npm_package_version"
+    image: "cloud.canister.io:5000/jobdotsoy/jondotsoy-www:$npm_package_version"
     ports:
-      - "80"
+      - "0.0.0.0:3000:3000"
+    environment:
+      - BASE_URL=http://localhost:3000

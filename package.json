@@ -21,7 +21,8 @@
     "scripts": {
         "dev": "next",
         "start": "next start",
-        "build": "next build"
+        "build": "next build",
+        "compose": "docker compose"
     },
     "repository": {
         "type": "git",
