@@ -1,7 +1,7 @@
 {
     "name": "jondotsoy-www",
     "private": true,
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "The [@jondotsoy][]'s website. The code source used to make the [jon.soy](https://jon.soy).",
     "main": "gulpfile.js",
     "dependencies": {
