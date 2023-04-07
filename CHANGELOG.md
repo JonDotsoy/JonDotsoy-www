@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.2](https://github.com/JonDotsoy/JonDotsoy-www/compare/v2.0.1...v2.0.2) (2023-04-07)
+
+
+### Miscellaneous Chores
+
+* release 2.0.2 ([babdf25](https://github.com/JonDotsoy/JonDotsoy-www/commit/babdf25307a4b11b5ce7f1b03e76ef4404624f67))
+
 ## [2.0.1](https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.8...v2.0.1) (2023-04-07)
 
 
