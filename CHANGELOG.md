@@ -1,5 +1,17 @@
 # Change Log
 
+## [2.0.1](https://github.com/JonDotsoy/JonDotsoy-www/compare/v1.0.8...v2.0.1) (2023-04-07)
+
+
+### Features
+
+* integration with next ([18d190d](https://github.com/JonDotsoy/JonDotsoy-www/commit/18d190d8ae73b9ec782991ca40598449a04039d8))
+
+
+### Miscellaneous Chores
+
+* release 2.0.1 ([b23d17e](https://github.com/JonDotsoy/JonDotsoy-www/commit/b23d17e07f791787eb8bd5d937d40d18e6a0aa7d))
+
 ## [Unreleased][]
 ### 🛸 Refactor
 - [18d190d][] Migration to nextjs.
