@@ -1,0 +1,11 @@
+.nvmrc
+.kube
+_p.puml
+.nvmrc
+Dockerfile
+compose.yml
+pages/
+.dockerignore
+.github/
+*.tgz
+tsconfig.json

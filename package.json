@@ -22,6 +22,7 @@
         "dev": "next",
         "start": "next start",
         "build": "next build",
+        "prepare": "npm run build",
         "compose": "docker compose"
     },
     "repository": {
